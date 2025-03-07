@@ -12,8 +12,8 @@ body {
 navbar {
   background-color: rgb(17, 17, 17);
   width: 100%;
-  @media (min-width: 768px)
-  
+  @media (min-width: 500px)
+
 
 
 
