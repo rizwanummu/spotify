@@ -476,6 +476,7 @@ ul {
   position: fixed;
   overflow: auto;
   flex-wrap: wrap;
+  @media (min-width: 500px)
 
 }
 
