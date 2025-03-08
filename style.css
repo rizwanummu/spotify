@@ -160,7 +160,7 @@ nav img {
   width: 90px;
   height: 30px;
 
-  border-color: blue;
+  border-color: rgb(70, 70, 147);
   color: rgb(7, 14, 6);
   margin-top: 3px;
   cursor: pointer;
@@ -314,6 +314,7 @@ nav a {
 
   margin-left: 10px;
   padding-top: 10px;
+  border: 2px solid black;
 
 }
 
@@ -357,15 +358,13 @@ nav a {
   width: 150px;
   height: 30px;
   font-size: larger;
+  border: 2px;
+  cursor: pointer;
 
 
 }
 
-.scrollbox {
-  /* overflow: scroll; */
 
-
-}
 
 .scrollbox:hover {
   overflow: scroll;
@@ -476,8 +475,6 @@ ul {
   position: fixed;
   overflow: auto;
   flex-wrap: wrap;
-  @media (min-width: 500px)
-
 }
 
 .card-container:hover {
@@ -628,3 +625,81 @@ ul {
 }
 
 /* Responsive adjustments */
+.footeerab{
+  margin-top: 80px;
+  
+}
+@media (max-width: 767px) {
+  .search {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .first {
+    flex-direction: column;
+    height: auto;
+    gap: 10px;
+  }
+
+  .installlogo, .signup {
+    margin-left: 0;
+  }
+
+  .first input {
+    width: 100%;
+  }
+
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+
+  .mainsection {
+    margin-left: 0;
+    width: 100%;
+    height: auto;
+  }
+
+  .card-container {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .card {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  footer {
+    position: relative;
+    margin-top: 0;
+  }
+
+  .createplaylist, .browsepodcast {
+    width: 100%;
+  }
+}
+@media (min-width: 1025px) {
+  .sidebar {
+    width: 350px;
+  }
+
+  .mainsection {
+    margin-left: 380px;
+  }
+
+  .card {
+    width: 23%;
+  }
+
+  .createplaylist, .browsepodcast {
+    width: 90%;
+  }
+
+  footer {
+    position: relative;
+    margin-top: 0;
+  }
+}
+
