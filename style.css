@@ -431,12 +431,10 @@ nav a {
 @media only screen and (min-width: 300px) and (max-width:800px) {
   .createplaylist p {
     color: white;
-    /* margin-right: 101px; */
+    margin-right: 101px;
     margin-top: 31px;
     font-size: small;
     margin-bottom: 12px;
-    float: left;
-    margin-left: 10px;
 
   }
 }
