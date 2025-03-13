@@ -13,12 +13,13 @@ body {
 navbar {
   background-color: rgb(17, 17, 17);
   width: 100vw;
- 
-  
+
+
 
 
 
 }
+
 /* @media only screen and (min-width: 300px) and (max-width:500px)
  {
   navbar {
@@ -72,18 +73,15 @@ nav img {
 
 
 }
-#hm{
+
+#hm {
   width: 30px;
   height: 50px;
   margin-top: -10px;
-  
-}
-.first img{
- 
 
- 
-  
 }
+
+.first img {}
 
 .icon-container:hover {
   color: #fefbfb;
@@ -247,9 +245,10 @@ footer p {
 }
 
 
-hr{
+hr {
   margin-left: 34px;
 }
+
 /* middle container............................................. */
 
 .sidebar {
@@ -268,8 +267,9 @@ hr{
   background-color: rgb(12, 12, 12);
   /* overflow: auto; */
 }
+
 @media only screen and (min-width: 300px) and (max-width:500px) {
-  .sidebar{
+  .sidebar {
     margin-top: 76px;
     width: 277px;
     border: 3pxm solid blue;
@@ -277,7 +277,7 @@ hr{
     height: 540px;
     /* overflow-y: auto;  */
     position: fixed;
-    
+
   }
 }
 
@@ -330,7 +330,7 @@ nav a {
   color: white;
   margin-top: 19px;
   font-size: x-large;
- 
+
 }
 
 .side-navbar ul a {
@@ -353,6 +353,7 @@ nav a {
   padding-top: 10px;
 
 }
+
 @media only screen and (min-width: 300px) and (max-width:800px) {
   .createplaylist {
     width: 254px;
@@ -367,10 +368,10 @@ nav a {
     text-align: center;
     justify-content: center;
     border: 2px solid #000;
-    
-    
+
+
     font-size: smaller;
-}
+  }
 
 }
 
@@ -384,6 +385,7 @@ nav a {
   padding: 7px;
   padding-top: 10px;
 }
+
 @media only screen and (min-width: 300px) and (max-width:800px) {
   .browsepodcast {
     width: 254px;
@@ -409,20 +411,21 @@ nav a {
   margin-bottom: 10px;
   color: white;
 }
+
 @media only screen and (min-width: 300px) and (max-width:800px) {
   .createplaylist h4 {
     /* display: inline; */
     color: white;
     /* float: right; */
-    
+
     font-size: smaller;
     color: white;
-        float: left;
-        font-size: smaller;
-        /* color: #a41b1b; */
-        margin-bottom: 14px;
-        /* margin-left: 32px; */
-        margin-right: 33px;
+    float: left;
+    font-size: smaller;
+    /* color: #a41b1b; */
+    margin-bottom: 14px;
+    /* margin-left: 32px; */
+    margin-right: 33px;
 
   }
 }
@@ -437,6 +440,7 @@ nav a {
   font-size: large;
   margin-bottom: 10px;
 }
+
 @media only screen and (min-width: 300px) and (max-width:800px) {
   .createplaylist p {
     color: white;
@@ -456,6 +460,7 @@ nav a {
   height: 30px;
   font-size: larger;
 }
+
 @media only screen and (min-width: 300px) and (max-width:800px) {
   .createplaylistbtn {
     margin-right: 125px;
@@ -488,6 +493,7 @@ nav a {
   margin-bottom: 10px;
   color: white;
 }
+
 @media only screen and (min-width: 300px) and (max-width:800px) {
   .browsepodcast h4 {
     display: inline;
@@ -506,6 +512,7 @@ nav a {
   margin-bottom: 10px;
   color: white;
 }
+
 @media only screen and (min-width: 300px) and (max-width:800px) {
   .browsepodcast p {
     margin-right: 16px;
@@ -528,16 +535,17 @@ nav a {
   background-color: rgb(12, 12, 12);
 
 }
+
 @media only screen and (min-width: 300px) and (max-width:900px) {
   .downbox {
     color: #d8d8d5;
 
-  margin-left: 8px;
-  margin-top: 20px;
-  gap: 20px;
-  background-color: rgb(12, 12, 12);
+    margin-left: 8px;
+    margin-top: 20px;
+    gap: 20px;
+    background-color: rgb(12, 12, 12);
 
-}
+  }
 }
 
 
@@ -549,16 +557,17 @@ nav a {
   margin-left: 2px;
 
 }
+
 @media only screen and (min-width: 300px) and (max-width:900px) {
   .downbox li {
     list-style: none;
-  margin-top: 52px;
+    margin-top: 52px;
 
-  display: inline;
-  margin-right:-4px;
-  font-size:xx-small;
+    display: inline;
+    margin-right: -4px;
+    font-size: xx-small;
 
-    
+
 
   }
 
@@ -630,20 +639,68 @@ ul {
   flex-wrap: wrap;
 
 }
+
 @media only screen and (min-width: 300px) and (max-width:800px) {
   .mainsection {
-  margin-left: 276px;
-  width: 100%;
-  height: 542px;
-  background-color: rgb(28, 27, 27);
-  margin-top: 5px;
-  position: fixed;
-  overflow: auto;
-  flex-wrap: wrap;
-         
-    
+    margin-left: 276px;
+    width: 100%;
+    height: 542px;
+    background-color: rgb(28, 27, 27);
+    margin-top: 5px;
+    position: fixed;
+    overflow: auto;
+    flex-wrap: wrap;
+
+
   }
-}  
+}
+
+@media only screen and (min-width: 300px) and (max-width:800px) {}
+
+.showall {
+  display: flex;
+  gap: 781px;
+  margin-bottom: 10px;
+  border: 2px salmon;
+}
+
+@media only screen and (min-width: 300px) and (max-width:800px) {
+  .showall {
+    display: flex;
+    gap: 164px;
+    margin-bottom: 10px;
+    border: 2px salmon;
+
+  }
+}
+
+
+
+
+.showall p1 {
+  color: aliceblue;
+  font-size: x-large;
+  margin-left: 10px;
+}
+@media only screen and (min-width: 300px) and (max-width:800px) {
+  .showall p1 {
+
+  }
+}
+
+
+@media only screen and (min-width: 300px) and (max-width:800px) {}
+
+.showall p2 {
+  margin: 0;
+  margin-left: 316px;
+  cursor: pointer;
+  color: rgb(196, 196, 201);
+  border: 2px solid rgb(96, 97, 97);
+  width: 90px;
+  text-align: center;
+
+}
 
 .card-container:hover {
   overflow-y: scroll;
@@ -660,9 +717,10 @@ ul {
   font-size: small;
 
 }
+
 @media only screen and (min-width: 300px) and (max-width:800px) {
-  . card-container{
-  /* margin-left: 146px;
+  . card-container {
+    /* margin-left: 146px;
   width: 100%;
   height: 542px;
   background-color: rgb(28, 27, 27);
@@ -670,10 +728,10 @@ ul {
   position: fixed;
   overflow: auto;
   flex-wrap: wrap; */
-         
-    
+
+
   }
-}  
+}
 
 .card {
   width: 161px;
@@ -683,10 +741,21 @@ ul {
   margin: 10px;
   overflow: hidden;
   background: #000;
-
-
   transition: transform 0.3s ease-in-out;
 }
+@media only screen and (min-width: 300px) and (max-width:800px) {
+  .card {
+    width: 101px;
+    height: 230px;
+    
+    border-radius: 5px;
+    margin: 10px;
+    overflow: hidden;
+    background: #000;
+    transition: transform 0.3s ease-in-out;
+  }
+}
+
 
 .card:hover {
   transform: scale(1.05);
