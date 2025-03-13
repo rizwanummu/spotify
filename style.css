@@ -405,7 +405,7 @@ nav a {
 }
 @media only screen and (min-width: 300px) and (max-width:800px) {
   .createplaylist h4 {
-    display: inline;
+    /* display: inline; */
     color: white;
     float: right;
     margin-right: 145px;
