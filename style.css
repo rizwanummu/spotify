@@ -12,7 +12,7 @@ body {
 
 navbar {
   background-color: rgb(17, 17, 17);
-  width: 100%;
+  width: 100vw;
  
   
 
@@ -247,7 +247,9 @@ footer p {
 }
 
 
-
+hr{
+  margin-left: 34px;
+}
 /* middle container............................................. */
 
 .sidebar {
