@@ -355,15 +355,15 @@ nav a {
   .createplaylist {
     width: 254px;
     background-color: rgb(53, 54, 54);
-    height: 154px;
+    height: 164px;
     overflow: hidden;
-    padding: 4px;
+    /* padding: 4px;
     margin-top: 3px;
     border-radius: 19px;
     margin-left: 9px;
-    padding-top: 19px;
-    justify-content: center;
+    padding-top: 9px; */
     text-align: center;
+    justify-content: center;
 }
 
 }
@@ -451,11 +451,11 @@ nav a {
     margin-right: 125px;
     margin-top: 5px;
     border-radius: 70px;
-    width: 126px;
+    width: 106px;
     height: 30px;
     font-size: small;
     font-weight: bold;
-    border: 2px solid black;
+    border: 2px solid;
   }
 }
 
