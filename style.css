@@ -355,13 +355,15 @@ nav a {
   .createplaylist {
     width: 254px;
     background-color: rgb(53, 54, 54);
-    height: 114px;
+    height: 154px;
     overflow: hidden;
     padding: 4px;
     margin-top: 3px;
     border-radius: 19px;
     margin-left: 9px;
-    padding-top: 9px;
+    padding-top: 19px;
+    justify-content: center;
+    text-align: center;
 }
 
 }
@@ -380,7 +382,7 @@ nav a {
   .browsepodcast {
     width: 254px;
     background-color: rgb(53, 54, 54);
-    height: 114px;
+    height: 164px;
     overflow: hidden;
     padding: 4px;
     margin-top: 13px;
