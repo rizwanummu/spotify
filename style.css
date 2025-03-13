@@ -273,7 +273,7 @@ footer p {
     border: 3pxm solid blue;
     /* background-color: rgb(48, 49, 49); */
     height: 540px;
-    overflow-y: auto; 
+    /* overflow-y: auto;  */
     position: fixed;
     
   }
