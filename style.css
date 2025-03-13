@@ -407,7 +407,7 @@ nav a {
   .createplaylist h4 {
     /* display: inline; */
     color: white;
-    float: right;
+    /* float: right; */
     margin-right: 95px;
     font-size: smaller;
   
