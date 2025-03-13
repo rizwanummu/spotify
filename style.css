@@ -356,12 +356,16 @@ nav a {
     width: 254px;
     background-color: rgb(53, 54, 54);
     height: 164px;
-    overflow: hidden;
-    padding: 4px;
-    margin-top: 3px;
+    /* overflow: hidden; */
+    /* padding: 4px; */
+    /* margin-top: 3px;
     border-radius: 19px;
     margin-left: 9px;
-    padding-top: 9px;
+    padding-top: 9px; */
+    text-align: center;
+    justify-content: center;
+    border: 2px solid #000;
+    
     
     font-size: smaller;
 }
@@ -408,11 +412,15 @@ nav a {
     /* display: inline; */
     color: white;
     /* float: right; */
-    margin-right: 95px;
+    
     font-size: smaller;
-  
-    margin-bottom: 14px;
-
+    color: white;
+        float: left;
+        font-size: smaller;
+        /* color: #a41b1b; */
+        margin-bottom: 14px;
+        /* margin-left: 32px; */
+        margin-right: 33px;
 
   }
 }
