@@ -739,7 +739,7 @@ show2-heading */
   .media2 p1 {
     font-size: x-large;
     margin-left: 10px;
-    width: 300px;
+    /* width: 300px; */
   }
 }
 
