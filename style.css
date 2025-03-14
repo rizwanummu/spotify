@@ -1063,15 +1063,16 @@ show2-heading */
   overflow: hidden;
   background: #000;
   transition: transform 0.3s ease-in-out;
+  
 }
 
 @media only screen and (min-width: 300px) and (max-width:800px) {
   .card {
-    width: 89px;
+    width: 127px;
     height: 230px;
 
     border-radius: 5px;
-    margin: 10px;
+    margin: 2px;
     overflow: hidden;
     background: #000;
     transition: transform 0.3s ease-in-out;
