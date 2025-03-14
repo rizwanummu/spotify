@@ -153,7 +153,7 @@ nav img {
 
 .installlogo {
   display: flex;
-  background-color: rgb(0, 0, 0);
+  /* background-color: rgb(0, 0, 0); */
   flex-direction: row;
   height: 70px;
   align-items: center;
@@ -172,7 +172,7 @@ nav img {
 
 .signup {
   display: flex;
-  background-color: rgb(0, 0, 0);
+  /* background-color: rgb(0, 0, 0); */
   flex-direction: row;
   height: 70px;
   align-items: center;
