@@ -770,7 +770,7 @@ ul {
 @media only screen and (min-width: 300px) and (max-width:800px) {
 
   .media1 p2 {
-    margin-left: 272px;
+    margin-left:-74px;
     cursor: pointer;
     color: rgb(196, 196, 201);
     border: 2px solid rgb(96, 97, 97);
@@ -844,7 +844,7 @@ show2-heading */
     font-size: larger;
     text-align: center;
     width: 90px;
-    margin-left: 160px;
+    margin-left: 75px;
 
   }
 }
@@ -902,7 +902,7 @@ show2-heading */
     width: 90px;
     text-align: center;
     font-size: larger;
-    margin-left: -15px;
+    margin-left: -116px;
 
   }
 }
@@ -961,7 +961,7 @@ show2-heading */
     border: 2px solid rgb(96, 97, 97);
     width: 80px;
     text-align: center;
-    margin-left: 305px;
+    margin-left: 205px;
     margin-top: 8px;
   }
 }
@@ -1020,7 +1020,7 @@ show2-heading */
     text-align: center;
     /* margin-right: 20px; */
     font-size: larger;
-    margin-left: 360px;
+    margin-left: 257px;
   }
 
 }
@@ -1067,7 +1067,7 @@ show2-heading */
 
 @media only screen and (min-width: 300px) and (max-width:800px) {
   .card {
-    width: 132px;
+    width: 89px;
     height: 230px;
 
     border-radius: 5px;
