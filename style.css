@@ -154,7 +154,7 @@ nav img {
 @media only screen and (min-width: 300px) and (max-width:800px) {
   .installlogo a{
     font-size: small;
-    margin-left: 10px;
+    margin-left: 0px;
     width: 90px;
    
 
@@ -173,8 +173,11 @@ nav img {
 }
 @media only screen and (min-width: 300px) and (max-width:800px) {
   .signup a{
-    width: 55px;
-    margin-left: 15px;
+    width: 51px;
+    font-size: small;
+   
+    margin-left: 1px;
+   
   }
 
 }
