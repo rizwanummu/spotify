@@ -20,12 +20,6 @@ navbar {
 
 }
 
-/* @media only screen and (min-width: 300px) and (max-width:500px)
- {
-  navbar {
-    width: 50%;
-  }
-} */
 
 
 
@@ -247,7 +241,18 @@ footer p {
 
 hr {
   margin-left: 34px;
+
 }
+
+@media only screen and (min-width: 300px) and (max-width:800px) {
+  hr {
+    margin-left: 34px;
+    margin-top: 30px;
+
+  }
+
+}
+
 
 /* middle container............................................. */
 
@@ -268,7 +273,7 @@ hr {
   /* overflow: auto; */
 }
 
-@media only screen and (min-width: 300px) and (max-width:500px) {
+@media only screen and (min-width: 300px) and (max-width:800px) {
   .sidebar {
     margin-top: 76px;
     width: 277px;
@@ -912,6 +917,7 @@ show2-heading */
   margin-left: 10px;
   font-size: x-large;
 }
+
 @media only screen and (min-width: 300px) and (max-width:800px) {
   .media5 p1 {
     color: aliceblue;
@@ -931,18 +937,19 @@ show2-heading */
   margin-right: 20px;
   font-size: larger;
 }
+
 @media only screen and (min-width: 300px) and (max-width:800px) {
   .media5 p2 {
-  margin: 0;
-  cursor: pointer;
-  color: rgb(196, 196, 201);
-  border: 2px solid rgb(96, 97, 97);
-  width: 90px;
-  text-align: center;
-  /* margin-right: 20px; */
-  font-size: larger;
-  margin-left: 360px;
-}
+    margin: 0;
+    cursor: pointer;
+    color: rgb(196, 196, 201);
+    border: 2px solid rgb(96, 97, 97);
+    width: 90px;
+    text-align: center;
+    /* margin-right: 20px; */
+    font-size: larger;
+    margin-left: 360px;
+  }
 
 }
 
@@ -1197,6 +1204,14 @@ show2-heading */
   margin-bottom: 10px;
 }
 
+@media only screen and (min-width: 300px) and (max-width:800px) {
+  .footer-col h3 {
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+}
+
+
 .footer-col ul {
   list-style: none;
   display: inline;
@@ -1228,6 +1243,22 @@ show2-heading */
 .footer-col li a:hover {
   color: #f6f9f7;
   /* Spotify Green */
+}
+
+.footerab {
+  height: 100px;
+  margin-top: 40px;
+  margin-left: 28px;
+  color: rgb(122, 124, 124);
+}
+
+@media only screen and (min-width: 300px) and (max-width:800px) {
+  .footerab {
+    height: 100px;
+  margin-top: 40px;
+  margin-left: 28px;
+    margin-left: 40px;
+  }
 }
 
 /* Responsive adjustments */
