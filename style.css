@@ -657,7 +657,7 @@ ul {
 
 /* @media only screen and (min-width: 300px) and (max-width:800px) {}*/
 
-.showall {
+.media1 {
   display: flex;
   gap: 781px;
   margin-bottom: 10px;
@@ -665,16 +665,22 @@ ul {
 }
 
 @media only screen and (min-width: 300px) and (max-width:800px) {
-  .showall {
+  .media1 {
     display: flex;
-    gap: 164px;
+    gap: 478px;
     margin-bottom: 10px;
     border: 2px salmon;
 
   }
 }
 
-.showall p2 {
+.media1 p1 {
+  color: aliceblue;
+  font-size: x-large;
+  margin-left: 10px;
+}
+
+.media1 p2 {
   margin: 0;
   margin-left: 59px;
   cursor: pointer;
@@ -686,8 +692,8 @@ ul {
 
 @media only screen and (min-width: 300px) and (max-width:800px) {
 
-  .showall p2 {
-    margin-left: 472px;
+  .media1 p2 {
+    margin-left: 272px;
     cursor: pointer;
     color: rgb(196, 196, 201);
     border: 2px solid rgb(96, 97, 97);
@@ -695,26 +701,50 @@ ul {
     text-align: center;
 
 
+
   }
 }
 
-/* ------------------------------------------------------- */
-.showall p3 {
+/* ------------------------------------------------------- 
+*/
+/* ----------------------------------------------
+show2-heading */
+.media2 {
+  display: flex;
+  gap: 727px;
+  margin-bottom: 10px;
+  border: 2px salmon;
+}
+
+@media only screen and (min-width: 300px) and (max-width:800px) {
+  .media2 {
+    display: flex;
+    gap: 407px;
+
+    margin-bottom: 10px;
+    border: 2px salmon;
+
+  }
+}
+
+
+
+.media2 p1 {
   color: aliceblue;
   font-size: x-large;
   margin-left: 10px;
 }
 
 @media only screen and (min-width: 300px) and (max-width:800px) {
-  .showall p3 {
+  .media2 p1 {
     font-size: x-large;
-  margin-left: 10px;
-  width: 300px;
+    margin-left: 10px;
+    width: 300px;
   }
 }
 
 /* ------------------------------------------------- */
-.showall p4 {
+.media2 p2 {
   margin: 0;
   cursor: pointer;
   color: rgb(196, 196, 201);
@@ -726,19 +756,199 @@ ul {
 
 }
 
+
 @media only screen and (min-width: 300px) and (max-width:800px) {
-  .showall p4 {
+  .media2 p2 {
     margin: 0;
+    cursor: pointer;
+    color: rgb(196, 196, 201);
+    border: 2px solid rgb(96, 97, 97);
+
+    font-size: larger;
+    text-align: center;
+    width: 90px;
+    margin-left: -45px;
+
+  }
+}
+
+.media3 {
+  display: flex;
+  gap: 791px;
+  margin-bottom: 10px;
+  border: 2px salmon;
+}
+
+@media only screen and (min-width: 300px) and (max-width:800px) {
+  .media3 {
+    display: flex;
+    gap: 518px;
+    margin-bottom: 10px;
+    border: 2px salmon;
+
+  }
+
+}
+
+.media3 p1 {
+  color: aliceblue;
+  font-size: x-large;
+  margin-left: 10px;
+
+}
+
+@media only screen and (min-width: 300px) and (max-width:800px) {
+  .media3 p1 {
+    color: aliceblue;
+    font-size: x-large;
+    margin-left: 10px;
+
+  }
+}
+
+.media3 p2 {
+  margin: 0;
   cursor: pointer;
   color: rgb(196, 196, 201);
   border: 2px solid rgb(96, 97, 97);
   width: 80px;
-  margin-right: 40px;
-  font-size: larger;
   text-align: center;
+  font-size: larger;
+  margin-left: 64px;
+}
+
+@media only screen and (min-width: 300px) and (max-width:800px) {
+  .media3 p2 {
+    cursor: pointer;
+    color: rgb(196, 196, 201);
+    border: 2px solid rgb(96, 97, 97);
+    width: 90px;
+    text-align: center;
+    font-size: larger;
+    margin-left: -15px;
 
   }
 }
+
+.media4 {
+  display: flex;
+  gap: 795px;
+  margin-bottom: 10px;
+  border: 2px salmon;
+  margin-top: 8px;
+}
+
+@media only screen and (min-width: 300px) and (max-width:800px) {
+  .media4 {
+    display: flex;
+    gap: 195px;
+    margin-bottom: 10px;
+    border: 2px salmon;
+    margin-top: 8px;
+  }
+
+}
+
+.media4 p1 {
+  color: aliceblue;
+  font-size: x-large;
+  margin-left: 10px;
+}
+
+@media only screen and (min-width: 300px) and (max-width:800px) {
+  .media4 p1 {
+    color: aliceblue;
+    font-size: x-large;
+    margin-left: 10px;
+  }
+}
+
+
+.media4 p2 {
+  margin: 0;
+  cursor: pointer;
+  color: rgb(196, 196, 201);
+  border: 2px solid rgb(96, 97, 97);
+  width: 80px;
+  text-align: center;
+  margin-left: 40px;
+  margin-top: 8px;
+}
+
+@media only screen and (min-width: 300px) and (max-width:800px) {
+
+  .media4 p2 {
+    margin: 0;
+    cursor: pointer;
+    color: rgb(196, 196, 201);
+    border: 2px solid rgb(96, 97, 97);
+    width: 80px;
+    text-align: center;
+    margin-left: 305px;
+    margin-top: 8px;
+  }
+}
+
+.media5 {
+  display: flex;
+  gap: 875px;
+  margin-bottom: 10px;
+  border: 2px salmon;
+}
+
+@media only screen and (min-width: 300px) and (max-width:800px) {
+  .media5 {
+    display: flex;
+    gap: 175px;
+    margin-bottom: 10px;
+    border: 2px salmon;
+
+  }
+}
+
+.media5 p1 {
+  color: aliceblue;
+  font-size: larger;
+  margin-left: 10px;
+  font-size: x-large;
+}
+@media only screen and (min-width: 300px) and (max-width:800px) {
+  .media5 p1 {
+    color: aliceblue;
+    font-size: larger;
+    margin-left: 10px;
+    font-size: x-large;
+  }
+}
+
+.media5 p2 {
+  margin: 0;
+  cursor: pointer;
+  color: rgb(196, 196, 201);
+  border: 2px solid rgb(96, 97, 97);
+  width: 80px;
+  text-align: center;
+  margin-right: 20px;
+  font-size: larger;
+}
+@media only screen and (min-width: 300px) and (max-width:800px) {
+  .media5 p2 {
+  margin: 0;
+  cursor: pointer;
+  color: rgb(196, 196, 201);
+  border: 2px solid rgb(96, 97, 97);
+  width: 90px;
+  text-align: center;
+  /* margin-right: 20px; */
+  font-size: larger;
+  margin-left: 360px;
+}
+
+}
+
+
+
+
 
 
 
