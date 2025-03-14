@@ -558,14 +558,6 @@ nav a {
     border: 2px solid black;
   }
 }
-
-
-.scrollbox {
-  /* overflow: scroll; */
-
-
-}
-
 .scrollbox:hover {
   overflow: scroll;
 }
@@ -1160,7 +1152,7 @@ show2-heading */
 }
 
 @media only screen and (min-width: 300px) and (max-width:800px) {
-  . card-container {
+  .card-container {
     margin-left: 146px;
     width: 100%;
     height: 542px;
