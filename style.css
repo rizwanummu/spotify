@@ -11,7 +11,7 @@ body {
 
 
 navbar {
-  background-color: rgb(17, 17, 17);
+  background-color:#000;
   width: 100vw;
 
 
@@ -29,8 +29,9 @@ navbar {
   width: 430px;
   border-radius: 10px;
   height: 30px;
-  margin-left: 30px;
+  margin-left: 10px;
   font-weight: bold;
+  background-color: #000;
   /* margin-: 20px; */
 
 }
@@ -38,6 +39,7 @@ navbar {
 .search .icon-button {
   width: 40px;
 }
+
 
 
 
@@ -52,6 +54,19 @@ nav img {
 
 }
 
+@media only screen and (min-width: 300px) and (max-width:800px) {
+  
+nav img {
+  margin-left: 5px;
+  width: 30px;
+  height: 40px;
+  border-radius: 30px;
+  justify-content: center;
+  align-items: center;
+
+}
+
+}
 .icon-container {
   color: #d8d8d5;
   margin-left: 20px;
@@ -72,10 +87,26 @@ nav img {
   width: 30px;
   height: 50px;
   margin-top: -10px;
+  margin-left: -20px;
 
 }
+@media only screen and (min-width: 300px) and (max-width:800px) {
+  #hm {
+    width: 30px;
+    height: 50px;
+    margin-top: -10px;
+    margin-left: -30px;
+  
+  }
+}
 
-.first img {}
+
+
+.first img {
+  width: 140px;
+  height: auto;
+  margin-left: 0px;
+}
 
 .icon-container:hover {
   color: #fefbfb;
@@ -97,12 +128,12 @@ nav img {
 
 .first {
   display: flex;
-  background-color: rgb(28, 28, 28);
+  background-color: rgb(4, 4, 4);
   flex-direction: row;
   height: 70px;
   align-items: center;
   gap: 4px;
-
+  
   /* padding: 16px; */
 
 }
@@ -113,17 +144,26 @@ nav img {
 
 .installlogo {
   display: flex;
-  background-color: rgb(28, 28, 28);
+  background-color: rgb(0, 0, 0);
   flex-direction: row;
   height: 70px;
   align-items: center;
   gap: -5px;
   margin-left: 20px;
 }
+@media only screen and (min-width: 300px) and (max-width:800px) {
+  .installlogo a{
+    font-size: small;
+    margin-left: 10px;
+    width: 90px;
+   
+
+}
+}
 
 .signup {
   display: flex;
-  background-color: rgb(28, 28, 28);
+  background-color: rgb(0, 0, 0);
   flex-direction: row;
   height: 70px;
   align-items: center;
@@ -131,6 +171,14 @@ nav img {
   margin-left: 20px;
 
 }
+@media only screen and (min-width: 300px) and (max-width:800px) {
+  .signup a{
+    width: 55px;
+    margin-left: -10px;
+  }
+
+}
+
 
 
 
@@ -143,6 +191,17 @@ nav img {
 
 
 }
+@media only screen and (min-width: 300px) and (max-width:800px) {
+  
+.first input {
+  cursor: pointer;
+  content: "Browser";
+  width: 230px;
+  border-radius: 10px;
+  border: 2px solid black;
+}
+}
+
 
 
 .icon-button {
@@ -153,6 +212,23 @@ nav img {
   margin-top: 7px;
   border: hidden;
 }
+@media only screen and (min-width: 300px) and (max-width:800px) {
+  
+
+.icon-button {
+  position: absolute;
+
+  border: 2px solid black;
+  margin-left: 191px;
+  margin-top: 7px;
+  border: hidden;
+  width: 10px;
+  
+  
+
+}
+}
+  
 
 .second li {
   display: flex;
@@ -270,6 +346,7 @@ hr {
   text-align: center;
   justify-content: center;
   background-color: rgb(12, 12, 12);
+  /* font-family: var(--encore-body-font-stack); */
   /* overflow: auto; */
 }
 
